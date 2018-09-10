@@ -35,7 +35,7 @@ public class StudentController {
         return studentMap.get(studentId);
     }
 
-    @RequestMapping(value = StudentURIConstants.GET_ALL_STUDENT, method = RequestMethod.GET)
+    @RequestMapping(value = StudentURIConstants.GET_ALL_STUDENTS, method = RequestMethod.GET)
     public @ResponseBody
     List<Student> getAllStudents() {
         logger.info("Start get all students");
